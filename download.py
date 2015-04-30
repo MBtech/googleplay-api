@@ -19,7 +19,7 @@ if (len(sys.argv) < 2):
 
 packagename = sys.argv[1]
 
-if ((len(sys.argv) == 3) and (len(sys.argv)<5)):
+if ((len(sys.argv) >= 3) and (len(sys.argv)<5)):
     filename = sys.argv[2]
     google_pass = sys.argv[3]
 elif (len(sys.argv)<3):
